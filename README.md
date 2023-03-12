@@ -20,19 +20,19 @@ This sample contains several screens: a welcome screen, where the user can enter
 
 ### App scaffolding
 
-Package [`com.example.compose.jetsurvey`][1]
+Package [`com.manasmalla.jetsurvey`][1]
 
-[`MainActivity`][2] is the application's entry point. Each screen is implemented inside a `Fragment` and [`MainActivity`][2] is the host `Activity` for all of the `Fragment`s.
-The navigation between them uses the [Navigation library][3]. The screens and the navigation are defined in [`Navigation.kt`][4]
+[`MainActivity`][2] is the application's entry point. Each screen is implemented inside the respective `Composable` and [`MainActivity`][2] is the host `Activity` for all of the `Composables`
+The navigation between them uses the [Navigation library][3]. The screens and the navigation are defined in [`JetsurveyApp.kt`][4]
 
-[1]: app/src/main/java/com/example/compose/jetsurvey
-[2]: app/src/main/java/com/example/compose/jetsurvey/MainActivity.kt
+[1]: app/src/main/java/com/manasmalla/jetsurvey
+[2]: app/src/main/java/com/manasmalla/jetsurvey/MainActivity.kt
 [3]: https://developer.android.com/guide/navigation
-[4]: app/src/main/java/com/example/compose/jetsurvey/Navigation.kt
+[4]: app/src/main/java/com/manasmalla/jetsurvey/JetsurveyApp.kt
 
 ### Sign in/sign up
 
-Package [`com.example.compose.jetsurvey.signinsignup`][5]
+Package [`com.manasmalla.jetsurvey.onboarding`][5]
 
 This package contains 3 screens:
 * Welcome
@@ -49,11 +49,11 @@ See how to:
 * Use a `Snackbar`
 * Use different types of `Button`s: `TextButton`, `OutlinedButton` and `Button`
 
-[5]: app/src/main/java/com/example/compose/jetsurvey/signinsignup
+[5]: app/src/main/java/com/example/compose/jetsurvey/onboarding
 
 ### Complete a survey
 
-Package [`com.example.compose.jetsurvey.survey`][6]
+Package [`com.manasmalla.jetsurvey.survey`][6]
 
 This screen allows the user to fill out a survey, showing how to handle complex state. UI state is kept and restored on recompositions triggered by different reasons like a configuration change or a new question being displayed on the screen.
 
@@ -65,7 +65,7 @@ See how to:
 * Use `Scaffold` - for screens with top bar, bottom bar and body
 * Display a `DialogFragment` when requested from compose
 
-[6]: app/src/main/java/com/example/compose/jetsurvey/survey
+[6]: app/src/main/java/com/manasmalla/jetsurvey/survey
 
 ### Data
 
