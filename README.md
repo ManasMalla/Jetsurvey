@@ -49,7 +49,7 @@ See how to:
 * Use a `Snackbar`
 * Use different types of `Button`s: `TextButton`, `OutlinedButton` and `Button`
 
-[5]: app/src/main/java/com/example/compose/jetsurvey/ui/onboarding
+[5]: app/src/main/java/com/manasmalla/jetsurvey/ui/onboarding
 
 ### Complete a survey
 
