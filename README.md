@@ -28,11 +28,11 @@ The navigation between them uses the [Navigation library][3]. The screens and th
 [1]: app/src/main/java/com/manasmalla/jetsurvey
 [2]: app/src/main/java/com/manasmalla/jetsurvey/MainActivity.kt
 [3]: https://developer.android.com/guide/navigation
-[4]: app/src/main/java/com/manasmalla/jetsurvey/JetsurveyApp.kt
+[4]: app/src/main/java/com/manasmalla/jetsurvey/ui/JetsurveyApp.kt
 
 ### Sign in/sign up
 
-Package [`com.manasmalla.jetsurvey.onboarding`][5]
+Package [`com.manasmalla.jetsurvey.ui.onboarding`][5]
 
 This package contains 3 screens:
 * Welcome
@@ -49,11 +49,11 @@ See how to:
 * Use a `Snackbar`
 * Use different types of `Button`s: `TextButton`, `OutlinedButton` and `Button`
 
-[5]: app/src/main/java/com/example/compose/jetsurvey/onboarding
+[5]: app/src/main/java/com/example/compose/jetsurvey/ui/onboarding
 
 ### Complete a survey
 
-Package [`com.manasmalla.jetsurvey.survey`][6]
+Package [`com.manasmalla.jetsurvey.ui.survey`][6]
 
 This screen allows the user to fill out a survey, showing how to handle complex state. UI state is kept and restored on recompositions triggered by different reasons like a configuration change or a new question being displayed on the screen.
 
@@ -65,7 +65,7 @@ See how to:
 * Use `Scaffold` - for screens with top bar, bottom bar and body
 * Display a `DialogFragment` when requested from compose
 
-[6]: app/src/main/java/com/manasmalla/jetsurvey/survey
+[6]: app/src/main/java/com/manasmalla/jetsurvey/ui/survey
 
 ### Data
 
